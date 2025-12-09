@@ -22,6 +22,7 @@ It consists of **data preprocessing, EDA, model training, performance evaluation
 ---
 
 ## 📁 Project Structure
+
 project-folder/
 │
 ├── dataset/
@@ -38,6 +39,7 @@ project-folder/
 ├── README.md
 └── requirements.txt
 ---
+
 ## 🤖 Machine Learning Algorithms Used
 | Algorithm | Category |
 |-----------|-----------|
@@ -63,7 +65,8 @@ project-folder/
 ---
 
 ## 🌐 Streamlit Application (Deployment)
-To run the UI:
 
-```bash
-[streamlit run app/streamlit_app.py](https://amazon-predictive-analysis-ycteayxhvjqea886iabxdf.streamlit.app/)
+Click the link below to try the live deployed application:
+
+🔗 **Live Demo:**  
+https://amazon-predictive-analysis-ycteayxhvjqea886iabxdf.streamlit.app
