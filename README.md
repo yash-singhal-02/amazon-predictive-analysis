@@ -37,12 +37,7 @@ project-folder/
 │
 ├── README.md
 └── requirements.txt
-
-yaml
-Copy code
-
 ---
-
 ## 🤖 Machine Learning Algorithms Used
 | Algorithm | Category |
 |-----------|-----------|
@@ -71,4 +66,4 @@ Copy code
 To run the UI:
 
 ```bash
-streamlit run app/streamlit_app.py
+[streamlit run app/streamlit_app.py](https://amazon-predictive-analysis-ycteayxhvjqea886iabxdf.streamlit.app/)
