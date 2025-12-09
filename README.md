@@ -24,19 +24,19 @@ It consists of **data preprocessing, EDA, model training, performance evaluation
 ## 📁 Project Structure
 
 project-folder/
-|-- dataset/
-|-- notebooks/
-|-- src/
-| |-- preprocessing.py
-| |-- training.py
-| |-- evaluation.py
+|--dataset/
+|--notebooks/
+|--src/
+||--preprocessing.py
+||--training.py
+||--evaluation.py
 |
-|-- results/
-|-- app/
-| |-- streamlit_app.py
+|--results/
+|--app/
+||--streamlit_app.py
 |
-|-- README.md
-|-- requirements.txt
+|--README.md
+|--requirements.txt
 ---
 
 ## 🤖 Machine Learning Algorithms Used
