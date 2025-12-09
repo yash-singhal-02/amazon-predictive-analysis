@@ -20,7 +20,7 @@ It consists of **data preprocessing, EDA, model training, performance evaluation
 - 🎨 Streamlit Web UI for User Interaction *(optional)*
 
 ---
-
+'''
 ## 📁 Project Structure
 
 project-folder/
@@ -37,8 +37,8 @@ project-folder/
 |
 |--README.md
 |--requirements.txt
+'''
 ---
-
 ## 🤖 Machine Learning Algorithms Used
 | Algorithm | Category |
 |-----------|-----------|
