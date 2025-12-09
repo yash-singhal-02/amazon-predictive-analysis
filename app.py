@@ -32,7 +32,7 @@ def set_background(image_file):
     """
     st.markdown(page_bg, unsafe_allow_html=True)
 
-set_background("background.webp")
+set_background("background.jpg")
 # ===========================
 # 1. Sidebar Navigation
 # ===========================
@@ -265,4 +265,5 @@ if page == "Clustering":
     scatter = ax_clust.scatter(pc[:,0], pc[:,1], c=cluster, cmap="YlOrBr")
     ax_clust.set_title("PCA Clustering Visualization")
     st.pyplot(fig_clust)
+
 
