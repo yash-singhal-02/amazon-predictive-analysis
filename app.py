@@ -20,13 +20,23 @@ sns.set_theme(style="whitegrid")
 def set_background(image_file):
     with open(image_file, "rb") as f:
         encoded = base64.b64encode(f.read()).decode()
+
     page_bg = f"""
     <style>
     .stApp {{
         background-image: url("data:image/jpg;base64,{encoded}");
         background-size: cover;
+        background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
+    }}
+
+    @media only screen and (max-width: 600px) {{
+        .stApp {{
+            background-size: contain !important;
+            background-position: top center !important;
+            background-attachment: scroll !important;
+        }}
     }}
     </style>
     """
@@ -265,5 +275,6 @@ if page == "Clustering":
     scatter = ax_clust.scatter(pc[:,0], pc[:,1], c=cluster, cmap="YlOrBr")
     ax_clust.set_title("PCA Clustering Visualization")
     st.pyplot(fig_clust)
+
 
 
