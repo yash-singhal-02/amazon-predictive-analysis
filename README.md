@@ -1,4 +1,3 @@
-````md
 # Amazon Predictive Analysis System using Machine Learning
 
 A complete **end-to-end Machine Learning project** developed to analyze Amazon sales data, identify hidden patterns, and generate predictive insights for better decision-making. This project focuses on building a practical ML workflow involving **data preprocessing, exploratory data analysis (EDA), model development, evaluation, and deployment**.
@@ -173,4 +172,4 @@ https://amazon-predictive-analysis-ycteayxhvjqea886iabxdf.streamlit.app
 
 **Yash Singhal**  
 B.Tech CSE | Machine Learning & Data Analytics Enthusiast
-````
+
